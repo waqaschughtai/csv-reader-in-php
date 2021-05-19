@@ -42,7 +42,7 @@
 
 <?php
 // $file = fopen("3cols_content_marketting.csv","r");
-$csv = array_map('str_getcsv', file('iCN-Website-List.csv'));
+$csv = array_map('str_getcsv', file('websites_list.csv'));
 
 ?>
 <table>
